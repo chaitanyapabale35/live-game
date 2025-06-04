@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Stone Paper Scissor Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Stone 🪨 Paper 📄 Scissor ✂</h1>
+    <h3 class="author-name">Made by Chaitanya Pabale</h3>
+  </header>
+
+  <div class="game-container">
+    <div class="choices">
+      <button onclick="play('stone')">🪨 Stone</button>
+      <button onclick="play('paper')">📄 Paper</button>
+      <button onclick="play('scissor')">✂ Scissor</button>
+    </div>
+
+    <div id="result">
+      <p>Your Choice: <span id="user-choice">-</span></p>
+      <p>Computer's Choice: <span id="computer-choice">-</span></p>
+      <h2 id="winner">Make your move!</h2>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
